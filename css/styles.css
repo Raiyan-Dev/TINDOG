@@ -1,0 +1,150 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    height: 630px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+
+}
+
+.kutta {
+    padding-top: 75px;
+}
+
+.download-button {
+    border-radius: 4px;
+    margin: 3% 3% 3% 0;
+}
+
+.rotated-img {
+    width: 60%;
+    padding-top: 20px;
+    transform: rotate(25deg);
+}
+
+/* FEATURES SECTION */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.f-head {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.f-feature {
+    line-height: 1.7;
+    text-align: center;
+}
+
+.f-div {
+    padding: 5%;
+}
+
+/* TESTIMONIALS SECTIONS */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* PRESS SECTION */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        height: 1320px;
+        text-align: center;
+    }
+
+    .rotated-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #testimonials h2{
+        font-size: 1.5rem;
+    }
+}
+
+/* CALL TO ACTION SECTION */
+#cta {
+    color: white;
+    font-size: 3rem;
+    background-color: #ff4c68;
+    line-height: 2;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+#footer {
+    padding: 7% 15% 1%;
+    text-align: center;
+}
+.footer-icon {
+    padding: 0 0.3% 1%;
+}
